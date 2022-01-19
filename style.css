@@ -1,15 +1,15 @@
 body {
-    background-color: #f5d9d5;
+    background-color:lightsalmon;
     font-family: "Nunito", sans-serif;
 }
 
 #mainNav {
-    font-size: 1.5rem;
-    font-weight: 100;
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
 .navbar.scrolled {
-    background: #e4bee0;
+    background: hotpink;
     transition: background 500ms;
 }
 
@@ -43,20 +43,21 @@ body {
 } */
 
 #headingGroup h1 {
-    font-weight: 100;
+    font-weight: 400;
     font-size: 4rem;
 }
 
 .para h2 {
-    font-weight: 100;
+    font-weight: 400;
     color: #ea1c2c;
 }
 
 .para p {
-    color: #f498b8;
-    line-height: 2;
+    color: black;
+    line-height: 2.1;
+    word-spacing: 1.5px;     
     font-size: 1.125rem;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .row {
@@ -66,6 +67,21 @@ body {
 
 .row:first-child {
     margin-top: 0px;
+}
+
+.social{
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.icons{
+    width: 43px;
+    margin-right: 6px;
+}
+
+.icons:hover{
+    opacity: 0.5;
 }
 
 @media (max-width: 1200px) {
